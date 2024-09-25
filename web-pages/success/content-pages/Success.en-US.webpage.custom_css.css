@@ -1,0 +1,66 @@
+body, h1, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #DDEEFF, #FFFFFF);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.checkmark img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subheading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.subheading hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #DDDDDD;
+    margin: 0 10px;
+}
+
+.subheading span {
+    font-size: 16px;
+    color: #666;
+}
+
+#save-response {
+    background-color: #00ADEF;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#save-response:hover {
+    background-color: #008BB5;
+}

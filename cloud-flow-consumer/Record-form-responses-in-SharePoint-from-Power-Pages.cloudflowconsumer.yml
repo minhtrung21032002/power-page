@@ -1,0 +1,10 @@
+adx__adx_processid_value: 774761c5-df65-ef11-bfe2-000d3aa12ac7
+adx_adx_CloudFlowConsumer_adx_webrole:
+- []
+- []
+- []
+adx_adx_flowapiurl: /_api/cloudflow/v1.0/trigger/774761c5-df65-ef11-bfe2-000d3aa12ac7
+adx_adx_flowtriggerurl: https://asia-001.azure-apim.net:443/apim/logicflows/6EA667C2C8247E3C29477085E1D1C6C8-521471B41BF22969/triggers/manual/run?api-version=2016-06-01
+adx_adx_metadata: 6ea667c2-c824-7e3c-2947-7085e1d1c6c8
+adx_cloudflowconsumerid: 40cf6438-8c66-ef11-a670-6045bd1d7506
+adx_name: Record form responses in SharePoint from Power Pages

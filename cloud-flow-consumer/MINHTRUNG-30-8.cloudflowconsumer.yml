@@ -1,0 +1,10 @@
+adx__adx_processid_value: a7acf12a-8166-ef11-a670-6045bd1d7506
+adx_adx_CloudFlowConsumer_adx_webrole:
+- []
+- []
+- []
+adx_adx_flowapiurl: /_api/cloudflow/v1.0/trigger/a7acf12a-8166-ef11-a670-6045bd1d7506
+adx_adx_flowtriggerurl: https://asia-001.azure-apim.net:443/apim/logicflows/73B12CE83880B1080595CE9FABB26DAC-521471B41BF22969/triggers/manual/run?api-version=2016-06-01
+adx_adx_metadata: 73b12ce8-3880-b108-0595-ce9fabb26dac
+adx_cloudflowconsumerid: 32e59544-8166-ef11-a670-6045bd1d7506
+adx_name: MINHTRUNG-30-8

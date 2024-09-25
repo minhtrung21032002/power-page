@@ -1,0 +1,14 @@
+adx_append: false
+adx_appendto: false
+adx_create: false
+adx_delete: false
+adx_entitylogicalname: cr4dc_jobrequest
+adx_entityname: All Job requests
+adx_entitypermission_webrole:
+- 5476558d-2e6c-452b-b3fd-397f40a38d48
+- e4c3a91d-e663-4aaf-b727-92fca759492a
+- eca42035-980c-482b-b529-7b3b118b148f
+adx_entitypermissionid: 551ff59d-8866-ef11-a670-6045bd1d7506
+adx_read: true
+adx_scope: 756150000
+adx_write: false

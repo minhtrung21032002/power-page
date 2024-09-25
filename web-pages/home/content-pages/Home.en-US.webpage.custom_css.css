@@ -1,0 +1,283 @@
+  /* #form-submit{
+    background: #FFFFFF;
+    width: 50%;
+    height: 50%;
+} */
+ 
+#mainContent{
+  background: linear-gradient(
+to bottom,
+#AED4D5,
+#9FCCCF,
+#90C3C6,
+#80BCBD,
+#6EB2B3,
+#76B6B8,
+#87BEC1,
+#95C7C8
+);
+
+}
+
+#form-wrapper {
+background-color: #EFF7F7;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+}
+
+#form-submit {
+margin-bottom: 20px;
+}
+/* #add-apply-position{
+margin-bottom: 25px;
+background: #5E5DF0;
+border-radius: 999px;
+box-shadow: #5E5DF0 0 10px 20px -10px;
+box-sizing: border-box;
+color: #FFFFFF;
+cursor: pointer;
+font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+opacity: 1;
+outline: 0 solid transparent;
+padding: 8px 18px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+width: fit-content;
+word-break: break-word;
+border: 0;
+} */
+
+.form-group .delete-button {
+margin-left: 20px;
+color:#A2A2A2;
+cursor: pointer;
+}
+
+.form-group .delete-button:hover {
+color: #cc0000; /* Darker red on hover */
+}
+
+
+.form-group {
+padding-bottom: 20px;
+}
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  display: none;
+}
+
+.error::before {
+  content: "⚠️";
+  margin-right: 8px;
+}
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group input[type="file"] {
+width: 100%;
+padding: 10px;
+border: 1px solid #CCCCCC;
+border-radius: 5px;
+margin-left:20px;
+}
+
+.form-group input[type="text"]::placeholder,
+.form-group input[type="tel"]::placeholder,
+.form-group input[type="email"]::placeholder,
+.form-group input[type="number"]::placeholder {
+color: #888;
+font-style: italic;
+font-size: 14px;
+/* font-family: rob; */
+color: #616116;
+font-weight: 400;
+line-height: 19px;
+
+}
+
+.form-group input[type="checkbox"],
+.form-group input[type="radio"] {
+    margin-left:20px;
+    transform: scale(1.5); /* Adjust the scale factor as needed */
+    margin-right: 15px; /* Optional: space between checkbox/radio and label */
+  }
+
+.form-group select {
+font-family: 'Segoe UI';
+width: 100%;
+font-size: 15px;
+margin-left:20px;
+font-weight: 400;
+line-height: 20px;
+color: #242424;
+border: 1px solid #CCCCCC;
+padding: 10px;
+}
+
+.form-group.form-group-position{
+padding-bottom: 30px;
+}
+
+.form-group label{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-bottom: 10px;
+font-size: 17px;
+font-weight: 400;
+line-height: 22px;
+color: #242424;
+}
+
+h2{
+color: #016363;
+margin-bottom: 10px;
+font-size: 28px;
+line-height: 28px;
+margin-top: 15px;
+}
+.h3{
+color: #016363;
+margin-bottom: 10px;
+font-size: 20px;
+line-height: 28px;
+margin-top: 15px;
+}
+.table{
+margin-left:20px;
+}
+.btn-submit {
+color: #016363;
+padding: 10px;
+border-radius: 10px;
+}
+
+/* styles.css */
+
+/* Modal styles */
+
+.file-list{
+display: flex;
+background-color: #dcebeb;
+margin-left: 20px;
+margin-top: 10px;
+padding: 10px;
+border-radius: 5px;
+justify-content: space-between;
+}
+.file-list-span{
+padding: 10px;
+margin-left:20px;
+color:grey;
+}
+.file-item {
+display: flex;
+background-color: #dcebeb;
+margin-left: 30px;
+margin-top: 10px;
+padding: 10px;
+border-radius: 5px;
+justify-content: space-between;
+/* width: 100%; */
+}
+#fileList i{
+margin-right:5px;
+
+}
+#fileList button, #fileList2 button{
+
+  background: none; /* Removes the background color */
+  border: none; /* Removes the border */
+  padding: 0; /* Removes any padding */
+  margin: 0; /* Removes any margin */
+  font: inherit; /* Inherits font style from parent element */
+  color: inherit; /* Inherits text color from parent element */
+  cursor: pointer; /* Keeps the pointer cursor on hover */
+  margin-left: 10px;
+  color:#A2A2A2;
+
+}
+
+
+#fileList button:hover{
+
+color: #cc0000; /* Darker red on hover */
+
+}
+
+
+#fileList2 button:hover{
+
+color: #cc0000; /* Darker red on hover */
+
+}
+
+#fileListInput, #fileListInput2 {
+width: 0;
+height: 0;
+overflow: hidden; /* Prevents any content from overflowing the container */
+position: relative; /* Ensures that the container behaves as expected */
+}
+#addFileButton, #addFileButton2 , #add-apply-position , #add-other-language{
+
+align-items: center;
+appearance: none;
+background-color: #fff;
+border: 1px solid #dbdbdb;
+border-radius: .375em;
+box-shadow: none;
+box-sizing: border-box;
+color: #363636;
+cursor: pointer;
+display: inline-flex;
+font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 1rem;
+height: 2.5em;
+justify-content: center;
+line-height: 1.5;
+padding: calc(.5em - 1px) 1em;
+position: relative;
+text-align: center;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: top;
+white-space: nowrap;
+margin-bottom: 15px;
+margin-left:29px;
+}
+
+
+#addFileButton:active,#add-apply-position:active {
+border-color: #4a4a4a;
+outline: 0;
+}
+
+#addFileButton:focus,#add-apply-position:focus {
+border-color: #485fc7;
+outline: 0;
+}
+
+#addFileButton:hover,#add-apply-position:hover {
+border-color: #b5b5b5;
+}
+
+#addFileButton:focus:not(:active),#add-apply-position:focus:not(:active) {
+box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+}
+.header-confirmation{
+margin-left:30px;
+}

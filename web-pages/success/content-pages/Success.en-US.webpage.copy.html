@@ -1,0 +1,25 @@
+<div class="row sectionBlockLayout text-start" style="min-height: auto; padding: 8px;">
+  <div class="container" style="display: flex; flex-wrap: wrap;">
+    <div class="col-lg-12 columnBlockLayout" style="padding: 16px; margin: 60px 0px; min-height: 200px;">
+      <div class="container">
+        <div class="checkmark">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <h1>Your response was submitted.</h1>
+        <button id="save-response">Submit New Form</button>
+    </div>
+    </div>
+    
+  </div>
+</div>
+
+<script>
+  // Function to handle the button click
+  function handleButtonClick() {
+      // Navigate to the root URL
+      window.location.href = '/';
+  }
+
+  // Add event listener to the button
+  document.getElementById('save-response').addEventListener('click', handleButtonClick);
+</script>
